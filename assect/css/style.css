@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#content {
+    width: 700px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: left;
+    margin: 18px 0;
+}
+.w-padding {
+    padding: 8px 16px;
+}
+
+.w-margin {
+    margin: 16px 0;
+}
+.w-margin_menu {
+    margin: 8px 16px;
+}
+.w-black{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+.bgr-black {
+    background-color: black;
+    color: aliceblue;
+    padding: 8px 16px;
+}
+.w-block {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+}
+.w-row {
+    width: 25%;
+}
+.mar10 {
+    margin: 10px 0;
+}
+.left {
+    text-align: left;
+    padding: 48px 16px;
+}
+.w{
+    color: #757575!important;
+}
+
+.content-header {
+    display: inline-block;
+    background-color: black;
+    color: aliceblue;
+    margin: 60px 0;
+}
+.center {
+    text-align: center ;
+}
+.clear {
+    clear: both;
+}
+
+span {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.row2 {
+    width: 50%;
+}
+.e_d {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.open {
+    background-color: #757575;
+    color: white;   
+}
+#main{
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+}
+
+#header .content {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#header a {
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+}
+#header a:hover {
+    background-color: #ccc;
+    color: black;
+}
+#slider {
+    position: relative;
+    margin-top: 55px;
+    height: 560px;
+    background: url(/assect/slider/coffeehouse.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.head {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 90px;
+}
+
+.time {
+    display: inline-block;
+    position:absolute;
+    bottom: 0;
+    left: 16px;
+}
+.addr {
+    position: absolute;
+    color: aliceblue;
+    bottom: 0;
+    right: 0;
+    padding: 8px 16px;
+}
+#content{
+    position: relative;
+    display: block;
+}
+
+#content .note {
+    background-color: #f1f1f1;
+    text-align: left;
+    border-left: 9px solid #ccc;
+}
+.heading {
+    font-style: italic;
+    padding: 8px 16px;
+}
+.about__note {
+    padding: 8px 16px;
+
+}
+/* begin menu */
+.menu {
+
+}
+.container-menu {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.map .map-content{
+    text-align: left;
+}
+
+/* .container-content-drink {
+    display: none;
+} */
+
+
+/* end menu  */
+.input{
+    display: block;
+    width: 100%;
+    padding: 16px 8px;
+}
+.send-btn {
+    margin: 4px;
+    padding: 8px 16px;
+}  
+.send-btn:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+#footer {
+    background-color: #f1f1f1;
+    padding: 40px ;
+    margin-top: 16px;
+}
+.css,
+.content-footer {
+    color: black;
+    font-size: 20px;
+}

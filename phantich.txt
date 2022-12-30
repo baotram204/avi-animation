@@ -1,0 +1,18 @@
+Tast4:
+https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm
+- Lấy ra element 
+- Add class vào 1 element 
+- Bắt sự kiện cho 1 element
+- Viết bằng function trong js
+- Viết responsive
+
+
+*phân tích
+1.header
+2.slider
+3.content
+    1.about
+    2.menu
+    3.map
+    4.information
+4.footer
